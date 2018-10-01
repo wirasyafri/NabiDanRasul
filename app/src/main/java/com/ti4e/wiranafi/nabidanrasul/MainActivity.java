@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity implements ResepListFragment.Listener {
+public class MainActivity extends AppCompatActivity implements NabiListFragment.Listener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements ResepListFragment
         View fragmenDetail = findViewById(R.id.fragment_container);
         if(fragmenDetail != null )
         {
-            ResepDetailFragment deta = new ResepDetailFragment();
+            NabiDetailFragment deta = new NabiDetailFragment();
             FragmentTransaction fragTrans = getSupportFragmentManager().beginTransaction();
             deta.setResep(id);
             fragTrans.replace(R.id.fragment_container,deta);
