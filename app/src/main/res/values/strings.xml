@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">NabiDanRasul</string>
+    <string name="app_name">Nabi dan Rasul</string>
+    <string name="detail_button">Tombol</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="resep_description">detail resep</string>
+    <string name="resep_title">judul resep</string>
 </resources>
